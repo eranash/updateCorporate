@@ -1,0 +1,187 @@
+body {
+    font-family: vollkorn, serif;
+    text-align: center;
+}
+#bgvideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+}
+
+ul {
+    margin-left: auto;
+}
+
+.logo {
+    height: 60px;
+    width: 40px;
+    padding-right: 10px;
+    margin-left: 10px;
+    
+}
+
+
+
+
+.companyname {
+    display: inline;
+    color: #00c6dc;
+    font-size: 2rem;
+}
+
+.navbar-dark {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 8px 0 0 0;
+}
+
+
+
+.nav-link {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 60px;
+    padding: 10px 0;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid #00c6dc;
+}
+
+.big-heading {
+    color: white;
+    font-size: 5rem;
+    margin: 100px auto 50px;
+    /* letter-spacing: 2.5px; */
+}
+
+.subheader {
+    color: white;
+    margin: 0 auto 50px;
+}
+
+#home {
+padding-top: 100px;
+}
+
+.bodyimage {
+    height: 250px;
+    /* border: 1px solid #00c6dc; */
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.feature-box {
+    color: white;
+}
+
+.feature-box h3 {
+    font-size: 2.5rem;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.feature-box p {
+    font-size: 1.2rem;
+    letter-spacing: 1.3px;
+    
+}
+
+#about {
+    max-width: 1500px;
+    margin: 50px auto;
+    padding-top: 100px;
+}
+
+.btn-lg {
+    background-color: rgba(255, 176, 0, 0.5);
+    border-radius: 20px;
+    color: white;
+    font-size: 2rem;
+    padding: 10px 70px;
+    margin-bottom: 100px;
+
+    
+}
+
+.btn-lg:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+#testimonials {
+    
+    padding-top: 200px;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .carousel-caption {
+      position: relative;
+      left: auto;
+      right: auto;
+      height: 20%;
+  }
+  
+  .testimonial-text {
+    font-size: 2rem;
+    line-height: 1.5;
+    color: white;
+  }
+  
+  .testimonial-image {
+    margin: 20px;
+    height: 500px;
+    text-align: center;
+  }
+
+  em {
+      color: white;
+      margin-bottom: 50px;
+  }
+
+  
+
+  
+
+footer {
+    color: rgba(255, 255, 255, 0.472);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 0;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    margin-top: 100px;
+}
+
+.footer-icon {
+    margin: 5px;
+}
+
+@media (max-width: 768px) {
+    .testimonial-image{
+        height: 300px;
+    }
+    .testimonial-text {
+        font-size: 1.5rem;
+    }
+    body {
+        background: url(https://images.pexels.com/photos/41949/earth-earth-at-night-night-lights-41949.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center center fixed;
+        background-size: cover;
+
+    }
+    #bgvideo {
+        display: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .testimonial-image{
+        height: 200px;
+    }
+    .testimonial-text {
+        font-size: 1rem;
+    }
+}
+
