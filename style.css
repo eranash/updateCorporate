@@ -185,3 +185,16 @@ footer {
     }
 }
 
+@media (max-device-width: 768px) {
+    body {
+        background: url(https://images.pexels.com/photos/41949/earth-earth-at-night-night-lights-41949.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center center fixed;
+        background-size: cover;
+
+    }
+    #bgvideo {
+        display: none;
+    }
+}
+
+
+
